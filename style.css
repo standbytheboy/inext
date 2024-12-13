@@ -1,17 +1,13 @@
-/* Style.css */
-
-/* Corpo e Fontes */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f1f1f1;
     color: #333;
     margin: 0;
     padding: 0;
+    background: linear-gradient(135deg, #1e3a8a, #f59e0b); 
+
 }
 
-/* Header Moderno */
 .header {
-    background: linear-gradient(135deg, #1e3a8a, #f59e0b); /* Azul e Amarelo */
     color: #fff;
     padding: 40px 20px;
     text-align: center;
@@ -30,14 +26,16 @@ body {
     margin: 0;
     letter-spacing: 1.5px;
     text-transform: uppercase;
+    color: white;
 }
 
 .subtitle {
     font-size: 1.2rem;
     margin-top: 10px;
     font-style: italic;
-    color: #fefefe;
+    color: #f59e0b;
     letter-spacing: 1px;
+    margin: 10px 0;
 }
 
 /* Efeitos de Transição */
@@ -64,24 +62,24 @@ body {
 
 /* Seções */
 .section {
-    padding: 20px;
-    margin: 20px;
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background: rgb(38, 38, 38);
+    color: white;
+    padding: 20px 50px;
+    max-width: 1200px;
+    margin: 40px auto;
+    border: 1px solid #f59e0b;
     border-radius: 8px;
 }
 
 /* Estilo de Títulos e Listas */
 .time-slot {
     font-size: 1.5rem;
-    color: #1e3a8a;
     margin-bottom: 10px;
+    color: #f59e0b;
 }
 
-.goal, .subtitle {
-    color: #f59e0b;
-    font-size: 1.2rem;
-    margin: 10px 0;
+.section p {
+    color: #deac54;
 }
 
 .list {
@@ -91,6 +89,7 @@ body {
 .list li {
     font-size: 1rem;
     line-height: 1.6;
+    color: #bababa;
 }
 
 ul {
@@ -109,6 +108,19 @@ ul li::before {
     position: absolute;
     left: 0;
     top: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+strong {
+    color: white;
+}
+
+.footer {
+    text-align: center;
 }
 
 /* Responsividade */
