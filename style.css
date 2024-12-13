@@ -65,7 +65,7 @@ body {
     background: rgb(38, 38, 38);
     color: white;
     padding: 20px 50px;
-    max-width: 1200px;
+    max-width: 80%;
     margin: 40px auto;
     border: 1px solid #f59e0b;
     border-radius: 8px;
@@ -133,7 +133,17 @@ strong {
         font-size: 1.2rem;
     }
 
-    .goal, .subtitle {
+    .subtitle {
         font-size: 1rem;
+    }
+
+    .section {
+        max-width: 70%;
+        margin: 40px auto;
+        padding: 20px;
+    }
+
+    .list {
+        margin-left: 5px;
     }
 }
