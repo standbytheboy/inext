@@ -138,12 +138,18 @@ strong {
     }
 
     .section {
-        max-width: 70%;
+        max-width: 90%;
         margin: 40px auto;
         padding: 20px;
     }
 
     .list {
         margin-left: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section {
+        max-width: 80%;
     }
 }
