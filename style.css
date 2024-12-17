@@ -161,5 +161,6 @@ strong {
 @media (max-width: 768px) {
     .section {
         max-width: 80%;
+        margin: 10px auto;
     }
 }
