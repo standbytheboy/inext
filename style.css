@@ -26,7 +26,7 @@ body {
     margin: 0;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    color: white;
+    color: whitesmoke;
 }
 
 .subtitle {
@@ -38,8 +38,14 @@ body {
     margin: 10px 0;
 }
 
+.aula {
+    font-size: 1rem;
+    color: #deac54;
+    font-style: normal;
+}
+
 /* Efeitos de Transição */
-.title, .subtitle {
+.title, .subtitle, .time-slot, a {
     opacity: 0;
     transform: translateY(20px);
     animation: fadeInUp 1s forwards;
@@ -49,8 +55,12 @@ body {
     animation-delay: 0.3s;
 }
 
-.subtitle {
+.subtitle, .aula {
     animation-delay: 0.6s;
+}
+
+.time-slot, a {
+    animation-delay: 0.9s;
 }
 
 @keyframes fadeInUp {
@@ -63,7 +73,7 @@ body {
 /* Seções */
 .section {
     background: rgb(38, 38, 38);
-    color: white;
+    color: whitesmoke;
     padding: 20px 50px;
     max-width: 80%;
     margin: 40px auto;
@@ -111,7 +121,7 @@ ul li::before {
 }
 
 a {
-    color: white;
+    color: whitesmoke;
     text-decoration: none;
 }
 
