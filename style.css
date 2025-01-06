@@ -129,6 +129,25 @@ strong {
     color: white;
 }
 
+img {
+    height: 300px;
+    
+}
+
+.cropped {
+    width: 350px; 
+    height: 260px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 2px solid #deac54;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.photo-cut {
+    margin: -20px 0;
+}
 .footer {
     text-align: center;
 }
