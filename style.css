@@ -3,7 +3,7 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #1e3a8a, #f59e0b);
+    background: linear-gradient(135deg, #1e3a8a, #f1c40f);
 }
 
 .header {
@@ -33,7 +33,7 @@ body {
     font-size: 1.2rem;
     margin-top: 10px;
     font-style: italic;
-    color: #f59e0b;
+    color: #f1c40f;
     letter-spacing: 1px;
     margin: 10px 0;
 }
@@ -79,20 +79,20 @@ p {
 
 /* Seções */
 .section {
-    background: rgb(38, 38, 38);
+    background:#333333;
     color: whitesmoke;
-    padding: 20px 50px;
-    max-width: 80%;
+    padding: 20px 40px;
+    max-width: 70%;
     margin: 40px auto;
-    border: 1px solid #f59e0b;
-    border-radius: 8px;
+    border: 1px solid #f1c40f;
+    border-radius: 20px;
 }
 
 /* Estilo de Títulos e Listas */
 .time-slot {
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: #f59e0b;
+    color: #f1c40f;
 }
 
 .list {
@@ -118,7 +118,7 @@ ul li {
 
 ul li::before {
     content: "•";
-    color: #f59e0b;
+    color: #f1c40f;
     position: absolute;
     left: 0;
     top: 0;
