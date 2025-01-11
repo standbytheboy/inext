@@ -7,8 +7,56 @@
 }
 
 body {
-    background: linear-gradient(135deg, #1e3a8a, #f59e0b);
-    color: #dcdcdc; /* Cor de texto cinza claro */
+    background: #1e3a8a;
+    color: #dcdcdc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-dropdown {
+    background-color: #333333;
+    border: 1px solid #444444;
+    border-radius: 20px;
+    padding: 15px 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #f1c40f;
+    margin-top: 100px;
+}
+
+.dropdown-menu {
+    border: none;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333333;
+    border: 1px solid #444444;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.dropdown-menu li a {
+    color: #f1c40f;
 }
 
 /* Header */
